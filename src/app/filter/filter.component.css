@@ -1,0 +1,20 @@
+.hide{
+    left: -18rem;
+    animation: left .5s ease-in-out;
+}
+
+.show{
+    left: 0px;
+    animation: right .5s ease-in-out;
+}
+
+@keyframes left {
+    from {left: -0}
+    to {left: -18rem}
+}
+
+@keyframes right{
+    from {left: -18rem}
+    to {left: 0}
+}
+

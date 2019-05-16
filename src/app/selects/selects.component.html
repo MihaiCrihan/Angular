@@ -1,14 +1,6 @@
-<form >
-  <div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" formControlName="model">
-    <label ngbButtonLabel class="btn-primary">
-      <input ngbButton type="radio" [value]="1"> Left (pre-checked)
-    </label>
-    <label ngbButtonLabel class="btn-primary">
-      <input ngbButton type="radio" value="middle"> Middle
-    </label>
-    <label ngbButtonLabel class="btn-primary">
-      <input ngbButton type="radio" [value]="false"> Right
-    </label>
-  </div>
-</form>
-<hr>
+<div>
+    <h3>Please select your component</h3> <br>
+  <select class="custom-select custom-select-lg mb-3" (change) = "drawCard($event.target.value)" >
+    <option *ngFor="let item of data" ng-model="">{{item}}</option>
+  </select>
+</div>

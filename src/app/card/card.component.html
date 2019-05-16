@@ -1,0 +1,20 @@
+<div style="background: gray">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="card m-2" style="width: 18rem;" *ngFor="let component of components">
+        <img src="{{component.img}}" class="card-img-top" alt="...">
+        <h5 class="card-title">{{ component.name }}</h5>
+        <div class="card-body text-center">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" *ngFor="let item of fields"> {{ component[item].field }} : {{ component[item].value }}</li>
+            <li class="list-group-item"> Price: {{ component.price }} </li>
+          </ul>
+          <button *ngIf="type == 'motherboard'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="(cpuFilter != '' && cpuFilter != component.socket.value) || (ramFilter != '' && ramFilter != component.memoryslot.value)">Cumpara</button>
+          <button *ngIf="type == 'cpu'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="cpuFilter != '' && cpuFilter != component.socket.value">Cumpara</button>
+          <button *ngIf="type == 'ram'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="ramFilter != '' && ramFilter != component.memoryslot.value">Cumpara</button>
+          <button *ngIf="type != 'motherboard' && type != 'cpu' && type != 'ram'" class="btn btn-danger mt-2" (click)="add(component)">Cumpara</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

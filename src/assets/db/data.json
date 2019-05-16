@@ -1,0 +1,442 @@
+{
+    "components": [
+        "Motherboard",
+        "CPU",
+        "ram",
+        "rom",
+        "gpu",
+        "monitor",
+        "mouse",
+        "keyboard"
+    ],
+    "motherboard": {
+        "type": "motherboard",
+        "fields": [
+            "socket",
+            "memoryslot"
+        ],
+        "data": [
+            {
+                "img": "assets/img//moth1.jpg",
+                "name": "mama",
+                "socket": {
+                    "field": "socket",
+                    "value": 2100
+                },
+                "memoryslot": {
+                    "field": "Ram Type",
+                    "value": "DDR4"
+                },
+                "price": 200
+            },
+            {
+                "img": "assets/img//moth2.jpg",
+                "name": "mama1",
+                "socket": {
+                    "field": "socket",
+                    "value": 1200
+                },
+                "memoryslot": {
+                    "field": "Ram Type",
+                    "value": "DDR4"
+                },
+                "price": 200
+            },
+            {
+                "img": "assets/img//moth3.jpg",
+                "name": "mama2",
+                "socket": {
+                    "field": "socket",
+                    "value": 1342
+                },
+                "memoryslot": {
+                    "field": "Ram Type",
+                    "value": "DDR3"
+                },
+                "price": 212
+            },
+            {
+                "img": "assets/img//moth4.jpg",
+                "name": "mama3",
+                "socket": {
+                    "field": "socket",
+                    "value": 1342
+                },
+                "memoryslot": {
+                    "field": "Ram Type",
+                    "value": "DDR2"
+                },
+                "price": 311
+            }
+        ]
+    },
+    "cpu": {
+        "type": "cpu",
+        "fields": [
+            "socket",
+            "frequence"
+        ],
+        "data": [
+            {
+                "img": "assets/img//cpu1.jpg",
+                "name": "Intel Core i5",
+                "socket": {
+                    "field" : "socket",
+                    "value" : 1342
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 500
+                },
+                "price": 200
+            },
+            {
+                "img": "assets/img//cpu2.jpg",
+                "name": "Intel Core i7",
+                "socket": 500,
+                "frequence": 500,
+                "price": 140
+            },
+            {
+                "img": "assets/img//cpu3.jpg",
+                "name": "Intel Core i5 8th Gen",
+                "socket": {
+                    "field" : "socket",
+                    "value" : 5000
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 500
+                },
+                "price": 13234
+            },
+            {
+                "img": "assets/img//cpu4.jpg",
+                "name": "Intel Core i3 8th Gen",
+                "socket": {
+                    "field" : "socket",
+                    "value" : 500
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 500
+                },
+                "price": 4363
+            }
+        ]
+    },
+    "ram": {
+        "type": "ram",
+        "fields": [
+            "memoryslot",
+            "capacity",
+            "frequence"
+        ],
+        "data":[
+            {
+                "img": "assets/img//ram1.jpg",
+                "name": "ram",
+                "memoryslot": {
+                    "field" : "memoryslot",
+                    "value" : "DDR2"
+                },
+                "capacity": {
+                    "field" : "capacity",
+                    "value" : "500"
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 1902
+                },
+                "price": 500
+            },
+            {
+                "img": "assets/img//ram2.jpg",
+                "name": "ram1",
+                "memoryslot": {
+                    "field" : "memoryslot",
+                    "value" : "DDR3"
+                },
+                "capacity": {
+                    "field" : "capacity",
+                    "value" : "500"
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 1902
+                },
+                "price": 500
+            },
+            {
+                "img": "assets/img//ram3.jpg",
+                "name": "ram2",
+                "memoryslot": {
+                    "field" : "memoryslot",
+                    "value" : "DDR4"
+                },
+                "capacity": {
+                    "field" : "capacity",
+                    "value" : "500"
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 1902
+                },
+                "price": 500
+            },
+            {
+                "img": "assets/img//ram4.jpg",
+                "name": "ram3",
+                "memoryslot": {
+                    "field" : "memoryslot",
+                    "value" : "DDR4"
+                },
+                "capacity": {
+                    "field" : "capacity",
+                    "value" : "500"
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 1902
+                },
+                "price": 500
+            }
+        ]
+    },
+    "rom": {
+        "type": "rom",
+        "fields" : [
+            "speed",
+            "capacity"
+        ],
+        "data":[
+            {
+                "img": "assets/img//rom2.jpg",
+                "name": "rom",
+                "speed": {
+                    "field": "speed",
+                    "value": 5400
+                },
+                "capacity": {
+                    "field": "capacity",
+                    "value": 500
+                },
+                "price": 344
+            },
+            {
+                "img": "assets/img//rom1.jpg",
+                "name": "rom1",
+                "speed": {
+                    "field": "speed",
+                    "value": 500
+                },
+                "capacity": {
+                    "field": "capacity",
+                    "value": 500
+                },
+                "price": 344
+            },
+            {
+                "img": "assets/img//rom2.jpg",
+                "name": "rom2",
+                "speed": {
+                    "field": "speed",
+                    "value": 500
+                },
+                "capacity": {
+                    "field": "capacity",
+                    "value": 500
+                },
+                "price": 344
+            },
+            {
+                "img": "assets/img//rom1.jpg",
+                "name": "rom3",
+                "speed": {
+                    "field": "speed",
+                    "value": 500
+                },
+                "capacity": {
+                    "field": "capacity",
+                    "value": 500
+                },
+                "price": 344
+            }
+        ]
+    },
+    "gpu": {
+        "type": "gpu", 
+        "fields":[
+            "memory",
+            "frequence"
+        ],
+        "data": [
+            {
+                "img": "assets/img//gpu1.jpg",
+                "name": "gpu",
+                "memory": {
+                    "field": "memory",
+                    "value" : 2
+                },
+                "frequence": {
+                    "field": "frequence",
+                    "value": "1300 MHz"
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//gpu1.jpg",
+                "name": "gpu1",
+                "memory": {
+                    "field": "memory",
+                    "value" : 1
+                },
+                "frequence": {
+                    "field": "frequence",
+                    "value": "300 MHz"
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//gpu1.jpg",
+                "name": "gpu2",
+                "memory": {
+                    "field": "memory",
+                    "value" : 4
+                },
+                "frequence": {
+                    "field": "frequence",
+                    "value": "5300 MHz"
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//gpu1.jpg",
+                "name": "gpu3",
+                "memory": {
+                    "field": "memory",
+                    "value" : 6
+                },
+                "frequence": {
+                    "field": "frequence",
+                    "value": "1100 MHz"
+                },
+                "price": 1902
+            }
+        ]
+    },
+    "monitor": {
+        "type": "monitor",
+        "fields":[
+            "inches"
+        ],
+        "data":[
+            {
+                "img": "assets/img//mon3.jpg",
+                "name": "ASus",
+                "inches": {
+                    "field": "inches",
+                    "value": 21
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//mon2.jpg",
+                "name": "Philips",
+                "inches": {
+                    "field": "inches",
+                    "value": 23
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//mon4.jpg",
+                "name": "monik2",
+                "inches": {
+                    "field": "inches",
+                    "value": 21.5
+                },
+                "price": 1902
+            },
+            {
+                "img": "assets/img//mon3.jpg",
+                "name": "monik3",
+                "inches": {
+                    "field": "inches",
+                    "value": 23.8
+                },
+                "price": 1902
+            }
+        ]
+    },
+    "mouse": {
+        "type": "mouse",
+        "fields":[],
+        "data": [
+            {
+                "img": "assets/img//mouse1.jpg",
+                "name": "miska",
+                "price": 23
+            },
+            {
+                "img": "assets/img//mouse2.jpg",
+                "name": "miska1",
+                "price": 23
+            },
+            {
+                "img": "assets/img//mouse1.jpg",
+                "name": "miska2",
+                "price": 23
+            },
+            {
+                "img": "assets/img//mouse2.jpg",
+                "name": "miska3",
+                "price": 23
+            }
+        ]
+    },
+    "keyboard": {
+        "type": "keyboard",
+        "fields":[
+            "type"
+        ],
+        "data":[
+            {
+                "img": "assets/img//keyboard1.jpg",
+                "name": "klava",
+                "type": {
+                    "field": "type",
+                    "value": "mechanic"
+                },
+                "price": 23
+            },
+            {
+                "img": "assets/img//keyboard2.jpg",
+                "name": "klava1",
+                "type": {
+                    "field": "type",
+                    "value": "membran"
+                },
+                "price": 23
+            },
+            {
+                "img": "assets/img//keyboard1.jpg",
+                "name": "klava2",
+                "type": {
+                    "field": "type",
+                    "value": "membran"
+                },
+                "price": 23
+            },
+            {
+                "img": "assets/img//keyboard2.jpg",
+                "name": "klava3",
+                "type": {
+                    "field": "type",
+                    "value": "mechanic"
+                },
+                "price": 23
+            }
+        ]
+    }
+}

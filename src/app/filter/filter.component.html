@@ -1,0 +1,21 @@
+<div id="block">
+  <div class="float-left">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            CPU Filter: {{ cpuFilter }}
+            <button class="btn btn-danger float-right" (click)="removeFilter('cpu', cpuFilter)">x</button>
+          </li>
+          <li class="list-group-item">
+            RAM Filter: {{ ramFilter }}
+            <button class="btn btn-danger float-right" (click)="removeFilter('ram', ramFilter)">x</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="float-right">
+    <button class="btn btn-info" (click)="showHide($event.target, $event.target.parentElement.parentElement)"><
+    </button> </div>
+</div>

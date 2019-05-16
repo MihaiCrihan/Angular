@@ -1,0 +1,8 @@
+div{
+    background: gray;
+    text-align: center !important;
+    display: Block !important;
+}
+select {
+    width: 30%
+}
