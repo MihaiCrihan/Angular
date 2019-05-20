@@ -9,10 +9,10 @@
             <li class="list-group-item" *ngFor="let item of fields"> {{ component[item].field }} : {{ component[item].value }}</li>
             <li class="list-group-item"> Price: {{ component.price }} </li>
           </ul>
-          <button *ngIf="type == 'motherboard'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="(cpuFilter != '' && cpuFilter != component.socket.value) || (ramFilter != '' && ramFilter != component.memoryslot.value)">Cumpara</button>
-          <button *ngIf="type == 'cpu'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="cpuFilter != '' && cpuFilter != component.socket.value">Cumpara</button>
-          <button *ngIf="type == 'ram'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="ramFilter != '' && ramFilter != component.memoryslot.value">Cumpara</button>
-          <button *ngIf="type != 'motherboard' && type != 'cpu' && type != 'ram'" class="btn btn-danger mt-2" (click)="add(component)">Cumpara</button>
+          <button *ngIf="type == 'motherboard'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="(cpuFilter != '' && cpuFilter != component.socket.value) || (ramFilter != '' && ramFilter != component.memoryslot.value)">Buy</button>
+          <button *ngIf="type == 'cpu'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="cpuFilter != '' && cpuFilter != component.socket.value">Buy</button>
+          <button *ngIf="type == 'ram'" class="btn btn-danger mt-2" (click)="add(component)" [disabled]="ramFilter != '' && ramFilter != component.memoryslot.value">Buy</button>
+          <button *ngIf="type != 'motherboard' && type != 'cpu' && type != 'ram'" class="btn btn-danger mt-2" (click)="add(component)">Buy</button>
         </div>
       </div>
     </div>

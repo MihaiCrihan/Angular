@@ -93,8 +93,14 @@
             {
                 "img": "assets/img//cpu2.jpg",
                 "name": "Intel Core i7",
-                "socket": 500,
-                "frequence": 500,
+                "socket": {
+                    "field" : "socket",
+                    "value" : 500
+                },
+                "frequence": {
+                    "field" : "frequence",
+                    "value" : 500
+                },
                 "price": 140
             },
             {
@@ -151,7 +157,7 @@
                 "price": 500
             },
             {
-                "img": "assets/img//ram2.jpg",
+                "img": "assets/img//ram1.jpg",
                 "name": "ram1",
                 "memoryslot": {
                     "field" : "memoryslot",
