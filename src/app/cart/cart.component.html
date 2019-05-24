@@ -1,0 +1,91 @@
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Your Config</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+    <p *ngIf="basket.length == 0">Please buy something </p>
+
+    
+    <table class="table table-striped" *ngIf="basket.length > 0">
+      <thead>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Description</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of basket">
+          <td *ngIf="item.name">
+            <div>{{ item.type }}</div>
+          </td>
+          <td *ngIf="item.name">
+            <div>{{ item.name }}</div>
+          </td>
+          <td *ngIf="item.name">{{ item.quantity }}</td>
+          <td *ngIf="item.price">{{ item.price }} $
+            <button class="btn btn-danger float-right" (click)="removeItem(item.name)">x</button>
+          </td>
+        </tr>
+        <tr class="alert alert-success" *ngIf="totalPrice != 0">
+          <td colspan="3">
+            Total: 
+          </td>
+          <td>
+            {{ totalPrice }} $
+          </td>
+        </tr>
+
+        <tr>
+          <!-- <td colspan="4">
+              <ngb-accordion #acc="ngbAccordion">
+                  <ngb-panel id="toggle-1" title="Do you have PROMOCODE?">
+                    <ng-template ngbPanelContent>
+                      <input type="text" class="form-control" #promoInput placeholder="Enter your promo here">
+                      <button class="btn btn-success float-right my-2" (click)="verify(promoInput.value)">VERIFY</button>
+                    </ng-template>
+                  </ngb-panel>
+                </ngb-accordion>
+          </td> -->
+        </tr>
+
+      </tbody>
+    </table>
+    
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c(content)">Close</button>
+    <button type="button" class="btn btn-outline-dark" (click)="open(ownerInfo)">Buy</button>
+  </div>
+</ng-template>
+
+<button class="btn btn-danger" (click)="open(content)">Basket</button>
+
+<ng-template #ownerInfo let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Your Config</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+    <form>
+      <input type="text" class="form-control mb-2" (keyup)="verifyAcces()" placeholder="Name" name="name" [(ngModel)]="owner.name" required>
+      <input type="text" class="form-control mb-2" (keyup)="verifyAcces()" placeholder="Surname" name="surname" [(ngModel)]="owner.surname" required>
+      <input type="number" class="form-control mb-2" (keyup)="verifyAcces()" placeholder="Phone Number" name="phone" [(ngModel)]="owner.phone" required>
+      <input type="text" class="form-control mb-2" (keyup)="verifyAcces()" placeholder="E-Mail" name="email" [(ngModel)]="owner.email" email>
+    </form>
+    
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-success" [disabled]="!access" (click)="saveOwnerInfo()" (click)="c()">Confirm</button>
+  </div>
+</ng-template>
+
+

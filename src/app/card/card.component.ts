@@ -23,15 +23,19 @@ export class CardComponent implements OnInit {
      this.components = data['data'];
      this.fields = data['fields'];
      this.type = data['type']
+     console.log(this.components);
    })
    this.store.currentCpuFilter.subscribe(filter => this.cpuFilter = filter);
    this.store.currentRamFilter.subscribe(filter => this.ramFilter = filter);
   }
 
   add(component) {
+    this.store.addToBasket(component, this.type);
+    if( this.type == 'motherboard' || this.type == 'cpu' || this.type == 'ram')
     this.setFilter(component);
-  }
 
+  }
+  
   setFilter(key) {
     if(this.type == 'cpu') {
       this.store.setFilter('cpu', key.socket.value)

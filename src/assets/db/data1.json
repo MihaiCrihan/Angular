@@ -2,12 +2,12 @@
     "components": [
         "Motherboard",
         "CPU",
-        "Ram",
-        "Rom",
-        "Gpu",
-        "Monitor",
-        "Mouse",
-        "Keyboard"
+        "ram",
+        "rom",
+        "gpu",
+        "monitor",
+        "mouse",
+        "keyboard"
     ],
     "motherboard": {
         "type": "motherboard",
@@ -18,55 +18,55 @@
         "data": [
             {
                 "img": "assets/img//moth1.jpg",
-                "name":"asus z97k",
+                "name": "mama",
                 "socket": {
                     "field": "socket",
-                    "value": 1150
+                    "value": 2100
                 },
                 "memoryslot": {
                     "field": "Ram Type",
-                    "value": "DDR3"
+                    "value": "DDR4"
                 },
                 "price": 200
             },
             {
                 "img": "assets/img//moth2.jpg",
-                "name":"GA-H81M-S1",
+                "name": "mama1",
                 "socket": {
                     "field": "socket",
-                    "value": 1150
+                    "value": 1200
+                },
+                "memoryslot": {
+                    "field": "Ram Type",
+                    "value": "DDR4"
+                },
+                "price": 200
+            },
+            {
+                "img": "assets/img//moth3.jpg",
+                "name": "mama2",
+                "socket": {
+                    "field": "socket",
+                    "value": 1342
                 },
                 "memoryslot": {
                     "field": "Ram Type",
                     "value": "DDR3"
                 },
-                "price": 125
-            },
-            {
-                "img": "assets/img//moth3.jpg",
-                "name":"Asus Prime H310M-K",
-                "socket": {
-                    "field": "socket",
-                    "value": 1151
-                },
-                "memoryslot": {
-                    "field": "Ram Type",
-                    "value": "DDR4"
-                },
-                "price": 70
+                "price": 212
             },
             {
                 "img": "assets/img//moth4.jpg",
-                "name":"Asus ROG Strix",
+                "name": "mama3",
                 "socket": {
                     "field": "socket",
-                    "value": 1151
+                    "value": 1342
                 },
                 "memoryslot": {
                     "field": "Ram Type",
-                    "value": "DDR4"
+                    "value": "DDR2"
                 },
-                "price": 220
+                "price": 311
             }
         ]
     },
@@ -79,55 +79,55 @@
         "data": [
             {
                 "img": "assets/img//cpu1.jpg",
-                "name":"i5 4690k",
+                "name": "Intel Core i5",
                 "socket": {
                     "field" : "socket",
-                    "value" : 1150
+                    "value" : 1342
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 3.5
+                    "value" : 500
                 },
-                "price": 250
+                "price": 200
             },
             {
                 "img": "assets/img//cpu2.jpg",
-                "name":"i7 4770k",
+                "name": "Intel Core i7",
                 "socket": {
                     "field" : "socket",
-                    "value" : 1150
+                    "value" : 500
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 4
+                    "value" : 500
                 },
-                "price": 350
+                "price": 140
             },
             {
                 "img": "assets/img//cpu3.jpg",
-                "name":"i5 8600k",
+                "name": "Intel Core i5 8th Gen",
                 "socket": {
                     "field" : "socket",
-                    "value" : 1151
+                    "value" : 5000
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 4.3
+                    "value" : 500
                 },
-                "price": 258
+                "price": 13234
             },
             {
                 "img": "assets/img//cpu4.jpg",
-                "name":"i3 8100",
+                "name": "Intel Core i3 8th Gen",
                 "socket": {
                     "field" : "socket",
-                    "value" : 1151
+                    "value" : 500
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 3.6
+                    "value" : 500
                 },
-                "price": 117
+                "price": 4363
             }
         ]
     },
@@ -141,69 +141,69 @@
         "data":[
             {
                 "img": "assets/img//ram1.jpg",
-                "name":"Kingston HyperX",
+                "name": "ram",
                 "memoryslot": {
                     "field" : "memoryslot",
-                    "value" : "DDR3"
+                    "value" : "DDR2"
                 },
                 "capacity": {
                     "field" : "capacity",
-                    "value" : "8 GB"
+                    "value" : "500"
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 1866
+                    "value" : 1902
                 },
-                "price": 80
+                "price": 500
             },
             {
                 "img": "assets/img//ram1.jpg",
-                "name":"Hynix Original",
+                "name": "ram1",
                 "memoryslot": {
                     "field" : "memoryslot",
                     "value" : "DDR3"
                 },
                 "capacity": {
                     "field" : "capacity",
-                    "value" : "4 GB"
+                    "value" : "500"
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 1600
+                    "value" : 1902
                 },
-                "price": 50
+                "price": 500
             },
             {
                 "img": "assets/img//ram3.jpg",
-                "name":"Kingston HyperX FURY",
+                "name": "ram2",
                 "memoryslot": {
                     "field" : "memoryslot",
                     "value" : "DDR4"
                 },
                 "capacity": {
                     "field" : "capacity",
-                    "value" : "8 GB"
+                    "value" : "500"
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 2400
+                    "value" : 1902
                 },
-                "price": 100
+                "price": 500
             },
             {
                 "img": "assets/img//ram4.jpg",
-                "name":"Corsair Vengeance LPX Red",
+                "name": "ram3",
                 "memoryslot": {
                     "field" : "memoryslot",
                     "value" : "DDR4"
                 },
                 "capacity": {
                     "field" : "capacity",
-                    "value" : "16 GB"
+                    "value" : "500"
                 },
                 "frequence": {
                     "field" : "frequence",
-                    "value" : 2133
+                    "value" : 1902
                 },
                 "price": 500
             }
@@ -218,55 +218,55 @@
         "data":[
             {
                 "img": "assets/img//rom2.jpg",
-                "name":"Western Digital WD10",
+                "name": "rom",
                 "speed": {
                     "field": "speed",
-                    "value": "7200rpm"
+                    "value": 5400
                 },
                 "capacity": {
                     "field": "capacity",
-                    "value": "1000 GB"
-                },
-                "price": 120
-            },
-            {
-                "img": "assets/img//rom1.jpg",
-                "name":"Samsung 860 PRO",
-                "speed": {
-                    "field": "speed",
-                    "value": "560/530MB/s"
-                },
-                "capacity": {
-                    "field": "capacity",
-                    "value": "512 GB"
+                    "value": 500
                 },
                 "price": 344
             },
             {
                 "img": "assets/img//rom1.jpg",
-                "name":"Samsung 860 PRO",
+                "name": "rom1",
                 "speed": {
                     "field": "speed",
-                    "value": "560/530MB/s"
+                    "value": 500
                 },
                 "capacity": {
                     "field": "capacity",
-                    "value": "512 GB"
+                    "value": 500
                 },
                 "price": 344
             },
             {
                 "img": "assets/img//rom2.jpg",
-                "name":"Western Digital WD10",
+                "name": "rom2",
                 "speed": {
                     "field": "speed",
-                    "value": "7200rpm"
+                    "value": 500
                 },
                 "capacity": {
                     "field": "capacity",
-                    "value": "1000 GB"
+                    "value": 500
                 },
-                "price": 120
+                "price": 344
+            },
+            {
+                "img": "assets/img//rom1.jpg",
+                "name": "rom3",
+                "speed": {
+                    "field": "speed",
+                    "value": 500
+                },
+                "capacity": {
+                    "field": "capacity",
+                    "value": 500
+                },
+                "price": 344
             }
         ]
     },
@@ -279,55 +279,55 @@
         "data": [
             {
                 "img": "assets/img//gpu1.jpg",
-                "name":"gtx 1060",
+                "name": "gpu",
                 "memory": {
                     "field": "memory",
-                    "value" : "6 GB"
+                    "value" : 2
                 },
                 "frequence": {
                     "field": "frequence",
-                    "value": "100 Ghz"
+                    "value": "1300 MHz"
                 },
-                "price": 300
+                "price": 1902
             },
             {
                 "img": "assets/img//gpu1.jpg",
-                "name":"gtx 1070",
+                "name": "gpu1",
                 "memory": {
                     "field": "memory",
-                    "value" : "8 GB"
+                    "value" : 1
                 },
                 "frequence": {
                     "field": "frequence",
-                    "value": "200 Ghz"
+                    "value": "300 MHz"
                 },
-                "price": 400
+                "price": 1902
             },
             {
                 "img": "assets/img//gpu1.jpg",
-                "name":"gtx 1070",
+                "name": "gpu2",
                 "memory": {
                     "field": "memory",
-                    "value" : "8 GB"
+                    "value" : 4
                 },
                 "frequence": {
                     "field": "frequence",
-                    "value": "200 Ghz"
+                    "value": "5300 MHz"
                 },
-                "price": 400
+                "price": 1902
             },
             {
                 "img": "assets/img//gpu1.jpg",
-                "name":"gtx 1060",
+                "name": "gpu3",
                 "memory": {
                     "field": "memory",
-                    "value" : "6 GB"
+                    "value" : 6
                 },
                 "frequence": {
                     "field": "frequence",
-                    "value": "100 Ghz"
+                    "value": "1100 MHz"
                 },
-                "price": 300
+                "price": 1902
             }
         ]
     },
@@ -339,39 +339,39 @@
         "data":[
             {
                 "img": "assets/img//mon3.jpg",
-                "name":"ACER IPS LED SA220QBID",
+                "name": "ASus",
                 "inches": {
                     "field": "inches",
-                    "value": "21.5"
+                    "value": 21
                 },
-                "price": 400
+                "price": 1902
             },
             {
                 "img": "assets/img//mon2.jpg",
-                "name": "AOC LED e970Swn",
+                "name": "Philips",
                 "inches": {
                     "field": "inches",
-                    "value": "18.5"
+                    "value": 23
                 },
-                "price": 160
+                "price": 1902
             },
             {
-                "img": "assets/img//mon2.jpg",
-                "name": "AOC LED e970Swn",
+                "img": "assets/img//mon4.jpg",
+                "name": "monik2",
                 "inches": {
                     "field": "inches",
-                    "value": "18.5"
+                    "value": 21.5
                 },
-                "price": 160
+                "price": 1902
             },
             {
-                "img": "assets/img//mon2.jpg",
-                "name": "AOC LED e970Swn",
+                "img": "assets/img//mon3.jpg",
+                "name": "monik3",
                 "inches": {
                     "field": "inches",
-                    "value": "18.5"
+                    "value": 23.8
                 },
-                "price": 160
+                "price": 1902
             }
         ]
     },
@@ -381,23 +381,23 @@
         "data": [
             {
                 "img": "assets/img//mouse1.jpg",
-                "name":"LOGITECH G305",
-                "price": 150
+                "name": "miska",
+                "price": 23
             },
             {
                 "img": "assets/img//mouse2.jpg",
-                "name":"HyperX Pulsefire",
-                "price": 70
+                "name": "miska1",
+                "price": 23
             },
             {
                 "img": "assets/img//mouse1.jpg",
-                "name":"LOGITECH G305",
-                "price": 150
+                "name": "miska2",
+                "price": 23
             },
             {
                 "img": "assets/img//mouse2.jpg",
-                "name":"HyperX Pulsefire",
-                "price": 70
+                "name": "miska3",
+                "price": 23
             }
         ]
     },
@@ -409,39 +409,39 @@
         "data":[
             {
                 "img": "assets/img//keyboard1.jpg",
-                "name":"LOGITECH G512",
+                "name": "klava",
                 "type": {
                     "field": "type",
-                    "value": "mechanics"
+                    "value": "mechanic"
                 },
-                "price": 90
+                "price": 23
             },
             {
                 "img": "assets/img//keyboard2.jpg",
-                "name":"HyperX Alloy FPS PRO",
+                "name": "klava1",
                 "type": {
                     "field": "type",
-                    "value": "mechanics"
+                    "value": "membran"
                 },
-                "price": 120
-            },
-            {
-                "img": "assets/img//keyboard2.jpg",
-                "name":"HyperX Alloy FPS PRO",
-                "type": {
-                    "field": "type",
-                    "value": "mechanics"
-                },
-                "price": 120
+                "price": 23
             },
             {
                 "img": "assets/img//keyboard1.jpg",
-                "name":"LOGITECH G512",
+                "name": "klava2",
                 "type": {
                     "field": "type",
-                    "value": "mechanics"
+                    "value": "membran"
                 },
-                "price": 90
+                "price": 23
+            },
+            {
+                "img": "assets/img//keyboard2.jpg",
+                "name": "klava3",
+                "type": {
+                    "field": "type",
+                    "value": "mechanic"
+                },
+                "price": 23
             }
         ]
     }
